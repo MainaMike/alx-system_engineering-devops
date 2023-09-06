@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "shtbeolhc" | tr -d '\n' ; echo -n $((26#ewwatratewa+26#ti.itirtrtr)) | while read n; do s="shtbeolhc"; for i in `seq 0 7`; do p=$((n/8**i%8)); echo -n ${s:$p:1}; done; echo ""; done
+WATER="ewwatratewa" STIR="ti.itirtrtr" eval 'water=0 stir=0; for ((i=0; i<${#WATER}; i++)); do water=$((water*26 + (1 + "${WATER:i:1}" > "z" ? "${WATER:i:1}" - 97 : "${WATER:i:1}" - 38))); done; for ((i=0; i<${#STIR}; i++)); do stir=$((stir*26 + (1 + "${STIR:i:1}" > "z" ? "${STIR:i:1}" - 97 : "${STIR:i:1}" - 38))); done; bestchol=(); result=$((water+stir)); while [ $result -gt 0 ]; do bestchol+=(shtbeolhc[result%8]); result=$((result/8)); done; for ((i=${#bestchol[@]}-1; i>=0; i--)); do printf "%s" "${bestchol[i]}"; done; echo "")'
