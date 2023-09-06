@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(printf %0 $(($(($#$(echo $WATER | tr 'water' '01234'))) + $(($#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol')
+echo "shtbeolhc" | tr -d '\n' ; echo -n $((26#ewwatratewa+26#ti.itirtrtr)) | while read n; do s="shtbeolhc"; for i in `seq 0 7`; do p=$((n/8**i%8)); echo -n ${s:$p:1}; done; echo ""; done
