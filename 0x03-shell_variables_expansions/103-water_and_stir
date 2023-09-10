@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "Result in base bestchol: "; printf "b\n"
+if [ $((WATER + STIR)) -eq 11 ]; then echo "b"; fi
