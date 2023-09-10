@@ -1,2 +1,2 @@
 #!/bin/bash
-WATER="ewwatratewa" STIR="ti.itirtrtr" eval 'water=0 stir=0; for ((i=0; i<${#WATER}; i++)); do water=$((water*26 + (1 + "${WATER:i:1}" > "z" ? "${WATER:i:1}" - 97 : "${WATER:i:1}" - 38))); done; for ((i=0; i<${#STIR}; i++)); do stir=$((stir*26 + (1 + "${STIR:i:1}" > "z" ? "${STIR:i:1}" - 97 : "${STIR:i:1}" - 38))); done; bestchol=(); result=$((water+stir)); while [ $result -gt 0 ]; do bestchol+=(shtbeolhc[result%8]); result=$((result/8)); done; for ((i=${#bestchol[@]}-1; i>=0; i--)); do printf "%s" "${bestchol[i]}"; done; echo "")'
+echo "Result in base bestchol: $((WATER + STIR))"
