@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "Result in base bestchol: %d\n" $((10#$WATER + 10#$STIR))
+printf "Result in base bestchol: %s\n" $(echo "ibase=water;obase=bestchol;$WATER+$STIR" | dc)
